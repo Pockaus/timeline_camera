@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    a.link-destaque {
+      color: #00f7ff;
+      text-decoration: underline;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    a.link-destaque:hover {
+      color: #00ffff;
+    }
+  </style>
+</head>
+<body class="star-background">
+  <div class="container">
+    <div class="box box1">
+      <p>Aluno: Luiz Felipe Figueiredo Angieuski<br>
+      Curso/Faculdade: 5° Semestre - Noturno / 
+      <a href="https://www.uniceub.br" target="_blank" class="link-destaque">
+        <img src="images/ceub.png" alt="CEUB Logo" width="20">
+        CEUB
+      </a><br>
+      Data: março/2025</p>
+    </div>
+    <div class="box box2">
+      <p>Trabalho referente ao meu Projeto Integrador:</p>
+      <p style="color: #1200a8; text-shadow: 0 0 10px #1200a8, 0 0 20px #1200a8, 0 0 30px #1200a8;">Análise de padrões de comportamento nos vídeos de segurança CEUB</p>
+    </div>
+    <div class="box box3">
+      <p>CREATIVITY COMMONS</p>
+      <p style="font-size: 12px;">
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="link-destaque">
+          <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC Logo" width="20">
+          Este trabalho está licenciado sob a Licença <br>
+          Creative Commons Atribuição 4.0 Internacional (CC BY 4.0).
+        </a>
+      </p>
+    </div>
+    <div class="box box4">
+      <p>Foram usadas as linguagens:</p>
+      <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="HTML Icon" width="20">
+        HTML (imagem html)<br>
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS Icon" width="20">
+        CSS (imagem css)<br>
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS Icon" width="20">
+        JAVASCRIPT (imagem js)
+      </p>
+    </div>
+    <button id="startBtn">COMEÇAR</button>
+  </div>
+
+  <script>
+    document.getElementById("startBtn").onclick = function() {
+      window.location.href = "apresentacao.html";
+    }
+  </script>
+</body>
+</html>

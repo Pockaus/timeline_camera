@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Apresentação - Linha do Tempo Interativa</title>
+<link rel="stylesheet" href="styles-apresentacao.css" />
+</head>
+<body>
+
+  <div class="timeline-container">
+    <h1>Linha do Tempo: Evolução do Design das Câmeras e Interação Humano-Computador</h1>
+
+    <div class="timeline-line"></div>
+
+    <div class="timeline-item left">
+      <span class="circle" data-id="1826"></span> <div class="content">
+        <img src="images/1826_camera.jpg" alt="1826 Câmera" />
+        <h2>1826 - Primeira Fotografia Permanente</h2>
+        <p>Joseph Nicéphore Niépce cria a primeira imagem fixa usando uma câmera obscura.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <span class="circle" data-id="kodak"></span> <div class="content">
+        <img src="images/kodak_camera.jpg" alt="Kodak" />
+        <h2>Final do Século XIX - Câmeras Portáteis</h2>
+        <p>Lançamento da Kodak, facilitando a fotografia para o público em geral.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <span class="circle" data-id="security"></span> <div class="content">
+        <img src="images/security_camera.jpg" alt="Câmeras de Segurança" />
+        <h2>1940-50 - Câmeras de Segurança Analógicas</h2>
+        <p>Início do uso de câmeras para vigilância em ambientes públicos e privados.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <span class="circle" data-id="ccd"></span> <div class="content">
+        <img src="images/ccd_sensor.jpg" alt="Sensor CCD" />
+        <h2>Década de 1970 - Câmeras Eletrônicas e Sensores CCD</h2>
+        <p>Desenvolvimento dos sensores CCD que permitiram captura eletrônica de imagens.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <span class="circle" data-id="digital"></span> <div class="content">
+        <img src="images/digital_camera.jpg" alt="Câmera Digital" />
+        <h2>Década de 1990 - Câmeras Digitais de Consumo</h2>
+        <p>Popularização das câmeras digitais com visor LCD e armazenamento em cartões.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <span class="circle" data-id="smartphone"></span> <div class="content">
+        <img src="images/smartphone_camera.jpg" alt="Câmera de Celular" />
+        <h2>Final dos Anos 2000 - Câmeras em Celulares</h2>
+        <p>Massificação da fotografia móvel com smartphones e integração a redes sociais.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <span class="circle" data-id="ai"></span> <div class="content">
+        <img src="images/ai_camera.jpg" alt="Câmeras Inteligentes" />
+        <h2>2010 em diante - Câmeras Inteligentes e IA</h2>
+        <p>Integração de inteligência artificial para reconhecimento facial e automação.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <span class="circle" data-id="iot"></span> <div class="content">
+        <img src="images/iot_camera.jpg" alt="Câmeras IoT" />
+        <h2>Hoje e Futuro - Câmeras Conectadas e IoT</h2>
+        <p>Dispositivos com interfaces multimodais, conectados à internet e realidade aumentada.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <img id="modal-image" src="" alt="Imagem ampliada" />
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <p id="modal-extra"></p> </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Luiz Felipe Figueiredo Angieuski - 5º Semestre - Noturno / 
+      <a href="https://www.uniceub.br" target="_blank">
+        <img src="images/ceub.png" alt="CEUB Logo" width="20" />
+        CEUB
+      </a>
+    </p>
+    <p>
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC Logo" />
+        Este trabalho está licenciado sob a Licença Creative Commons Atribuição 4.0 Internacional (CC BY 4.0).
+      </a>
+    </p>
+    <p>Data: Março de 2025</p>
+    <p>
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+        Licença CC BY 4.0
+      </a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
